@@ -1,0 +1,201 @@
+/*
+---------------------------------------
+GLOBAL
+Version: Diciembre - 2009
+--------------------------------------
+*/
+
+
+* {
+margin: 0;
+padding: 0;}
+
+
+img {border:0;}
+
+a:link {color: #151515;}
+a:visited {color: #151515;}
+a:hover {color: #151515;text-decoration:none}
+a:active {color: #151515;}
+
+.oculto, hr {display: none;}
+
+#formulario label.oculto {display: none;}
+
+.lab_ie {padding-left:20px !important}
+
+.formu label.oculto {display: none;}
+#formulario_02 label.oculto {display: none;}
+#formulario_03 label.oculto {display: none;}
+#conmargen {margin-top:10px;}
+#conmargen02 {margin-top:6px;}
+#conmargen2 {margin-bottom:10px;}
+#conmargen0 {margin-top:10px;}
+.conmargen {margin-top:10px !important;}
+.conmargen3 {margin-top:16px !important;}
+.conmargen02 {margin-top:6px !important;}
+.conmargen00 {margin:10px 10px 10px 10px !important;}
+
+h2 {
+font-family:"Trebuchet MS",Verdana,Arial, sans-serif;
+font-size:120%;
+margin-bottom:15px;
+line-height:110%;
+color:#585858;
+font-weight:normal;}
+
+h2#arb {line-height:105%;background:transparent url("../../img/paquete.gif") 0 3px no-repeat;padding-left:30px;}
+
+
+h2#arb a {font-size:90% !important;color:#585858;}
+
+h2.carpeta_abierta {
+padding-left:30px;
+padding-bottom:6px;
+background:transparent url("../../img/carpeta_02.gif") 0 0 no-repeat;}
+
+#formulario h3.grande_h2,
+.formu h3.grande_h2,
+#formulario_02 h3.grande_h2 {
+font-family:"Trebuchet MS",Verdana,Arial, sans-serif;
+font-size:160%;
+margin-top:2px;
+margin-bottom:12px;
+line-height:50%;
+color:#585858;
+font-weight:normal;}
+
+#cabecera  h2 {
+font-size:130%;
+margin-top:1.9em;
+margin-left:10px;}
+
+#cabecera  h2.h2_paq {
+padding-left:30px;
+padding-bottom:10px;
+background:transparent url("../../img/paquete.gif") 0 3px no-repeat;}
+
+#ficha_pestanias div  {float:left}
+
+#cuerpo {
+margin:0 auto ;
+padding:0 !important;
+text-align:left;
+display:block !important;
+min-height:10em;
+width:960px !important;}
+
+#cuerpo_popup {
+width:680px;
+padding:0 15px;
+height:40em;}	
+
+#cuerpo_popup_02 {
+width:auto;
+padding:0 15px;
+height:auto;}	
+
+.imagen_principal {
+display:block;
+background:transparent;
+left:0;
+position:relative;
+height:245px;}
+
+.imagen_principal span {
+background:transparent;
+display:block;
+padding:0;
+z-index:5;
+position:relative;
+width:auto;
+height:245px;}
+
+.imagen_principal span img {z-index:1;}
+
+.imagen_flotante_der,
+.imagen_flotante_izq {
+display:block;
+background:white;
+line-height:100%;
+cursor:pointer;
+text-decoration:none;
+position:relative;
+margin-top:6px;
+margin-bottom:12px;}
+
+.imagen_flotante_der img,
+.imagen_flotante_izq img {margin:1px 1px 0 1px}
+
+.imagen_flotante_der {
+float:right;
+margin-left:12px;}
+
+.imagen_flotante_izq {
+float:left;
+margin-right:12px;}
+
+.imagen_flotante_der strong,
+.imagen_flotante_izq strong {
+background:transparent url("../../img/imagen_flotante.gif") 0 0 no-repeat;
+display:block;
+border:1px solid #fff;
+padding:0;
+position:relative;
+width:186px;
+height:186px;}
+
+.plantilla_contenido ul#lista_de_faqs {
+list-style-type:none;
+margin-top:20px;
+margin-right:10px;
+position:relative;}
+
+ ul#listado_noticias {
+list-style-type:none;
+margin-top:0;
+font-size:100%;
+margin-right:10px;
+position:relative;}
+
+
+.plantilla_contenido ul#lista_de_noticias{
+list-style-type:none;
+margin-top:0;padding:0px 10px 2px 10px;
+position:relative;}
+
+.plantilla_contenido  ul#lista_de_faqs li {
+margin:14px 0 0 0;
+padding-left:0;
+left:0;}
+
+ ul#listado_noticias li {
+margin:14px 0 0 0;
+padding-left:0;
+left:0;}
+
+.plantilla_contenido  ul#lista_de_noticias li{
+margin:0 0 0 0;
+padding-left:0;
+left:0;}
+
+.plantilla_contenido  ul#lista_de_noticias li a {
+font-family:"Trebuchet MS",Verdana,Arial, sans-serif;
+font-size:75%;
+font-weight:bold;
+color:#333 !important;
+text-decoration:underline;
+background:#fff;}
+
+
+.plantilla_contenido ul#lista_de_comen,
+.plantilla_contenido div#lista_de_comen {
+list-style-type:none;
+margin-top:20px;
+margin-right:10px;
+position:relative;}
+
+.plantilla_contenido ul#lista_de_comen input {
+display:inline !important;border:0 !important;width:14px !important;margin-bottom:0;}
+.plantilla_contenido div#lista_de_comen input {
+display:inline !important;bo
